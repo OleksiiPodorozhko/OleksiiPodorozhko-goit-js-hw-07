@@ -1,6 +1,5 @@
 body {
   font-family: "Montserrat", sans-serif;
-  letter-spacing: 0.04em;
   color: #2e2f42;
 }
 
@@ -9,15 +8,12 @@ body {
   width: 360px;
   height: 40px;
   font: inherit;
-  /*font-weight: 400;*/
-  /*font-size: 16px;*/
   padding-left: 16px;
 
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #2e2f42;
 }
 
 .title {
@@ -25,5 +21,4 @@ body {
   font-size: 24px;
   line-height: 1.33333;
   letter-spacing: 0.04em;
-  color: #2e2f42;
 }
