@@ -9,7 +9,6 @@ form.addEventListener('submit', event => {
     alert('All form fields must be filled in');
   } else {
     console.log({ email: email, password: password });
+    event.target.reset();
   }
-
-  event.target.reset();
 });
