@@ -10,4 +10,6 @@ form.addEventListener('submit', event => {
   } else {
     console.log({ email: email, password: password });
   }
+
+  event.target.reset();
 });
